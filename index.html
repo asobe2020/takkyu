@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>卓球得点表</title>
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="is-size-5">卓球得点表</h1>
+                                    <h1 id="score" class="is-size-3"></h1>
+                                    <span id="duse"></span>
+                                    <h2 id="winner"></h2>
+                                    <span>得点を管理しよう</span>
+                                    <h2 class="is-size-4">何点先取？</h2>
+                                    <select name="pingpone" id="pon-score" class="mb-4">
+                            
+                                    </select>
+                                    <div class="columns">
+                                        <button id="player1" class="column button is-primary is-small">+1 プレイヤー1</button>
+                                        <button id="player2" class="column button is-link is-small">+2 プレイヤー2</button>
+                                        <button id="reset" class="column button is-danger is-small">リセット</button>
+                                    </div>
+
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>
